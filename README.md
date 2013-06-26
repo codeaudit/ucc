@@ -18,7 +18,7 @@ We then make these points close to fitting on a curve (with a bit of randomly-ge
 
 If you plot these data points, you'll see that there's an obvious (contrived) relationship, albeit not a linear relationship.
 
-![scatterplot](https://github.com/jackmaney/ucc/blob/master/img/scatterplot.png)
+![scatterplot](https://raw.github.com/jackmaney/ucc/master/img/scatterplot.png)
 
 Predictably, the Pearson Correlation coefficient (ie the covariance divided by the product of standard deviations) does not reveal a linear relationship (due to randomness, exact values will vary, but it will probably be around 0.2)
 
