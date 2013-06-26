@@ -1,0 +1,9 @@
+Package: ucc
+Type: Package
+Title: Computation of a Universal Correlation Coefficient
+Version: 0.0.1
+Date: 2013-06-26
+Author: Jack Maney <jackmaney@gmail.com>
+Maintainer: Jack Maney <jackmaney@gmail.com>
+Description: At the 2011 Joint Statistical Meetings, Nuo Xu of the University of Alabama at Birmingham presented a paper--coauthored with Xuan Huang also of UAB and Samuel Huang at the University of Cincinatti--in which a Universal Correlation Coefficient is defined and developed. This coefficient measures the degree of dependency (but not the form of dependency) for two discrete random variables.
+License: MIT
