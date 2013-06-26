@@ -34,16 +34,16 @@ Check out the R documentation for more details about the algorithm.
 
 * Clone the repository:
 
-    git clone https://github.com/jackmaney/ucc.git ~/ucc
+        git clone https://github.com/jackmaney/ucc.git ~/ucc
 
 (of course, feel free to use a different directory than `~/ucc`, if you'd like)
 * In the **parent directory** of the repository (ie `~` if you cloned to `~/ucc`), run the following
 
-    R CMD build ucc
+        R CMD build ucc
 
 This will generate a `tar.gz` file.
 * Run the following:
 
-    R CMD INSTALL ucc_<x.y.z>.tar.gz
+        R CMD INSTALL ucc_<x.y.z>.tar.gz
 
 where `<x.y.z>` is the latest version number of the `ucc` library.
