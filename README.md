@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Universal Correlation Coefficient
 
 At the 2011 Joint Statistical Meetings, Nuo Xu of the University of Alabama at Birmingham presented a paper--coauthored with Xuan Huang also of UAB and Samuel Huang at the University of Cincinatti--in which a Universal Correlation Coefficient is defined and developed. This coefficient measures the degree of dependency (but not the form of dependency) for two discrete random variables.
