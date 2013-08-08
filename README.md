@@ -10,23 +10,24 @@ This R package implements the algorithm described in the paper presented at the 
 
 We first grab 1,000 random `x` values between 0 and 1:
 
+    set.seed(1234) #for reproducability
     x <- runif(1000)
 
 We then make these points close to fitting on a curve (with a bit of randomly-generated noise):
 
-    dat <- data.frame(x=x,y=exp(x)*cos(2*pi*x) + runif(1000,-0.1,0.1))
+    dat <- data.frame(x=x,y=exp(x)*cos(2*pi*x) + rnorm(1000,-0.1,0.1))
 
 If you plot these data points, you'll see that there's an obvious (contrived) relationship, albeit not a linear relationship.
 
 ![scatterplot](https://raw.github.com/jackmaney/ucc/master/img/scatterplot.png)
 
-Predictably, the Pearson Correlation coefficient (ie the covariance divided by the product of standard deviations) does not reveal a linear relationship (due to randomness, exact values will vary, but it will probably be around 0.2)
+Predictably, the Pearson Correlation coefficient (ie the covariance divided by the product of standard deviations) does not reveal a linear relationship
 
-    cor(dat$x,dat$y)  # Low, even though there's obviously a relationship.
+    cor(dat$x,dat$y)  # equals 0.2666508
 
-The Universal Correlation Coefficient briefly described above measures the *degree* of dependency independent of the *form* of dependency (again, exact values will vary, but you should get UCC values above 0.9).
+The Universal Correlation Coefficient briefly described above measures the *degree* of dependency independent of the *form* of dependency.
 
-    ucc.ucc(dat)    # Much higher.
+    ucc(dat)$ucc    # equals 0.9057609
 
 Check out the R documentation for more details about the algorithm.
 

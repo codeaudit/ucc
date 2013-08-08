@@ -80,7 +80,7 @@ ucc.x <- function(df)
   return(1 - (3 * mean(d))/(nrow(r) + 1));
 }
 
-ucc.ucc <- function(df)
+ucc <- function(df)
 {
   ux <- ucc.x(df)
   uy <- ucc.y(df)
