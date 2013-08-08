@@ -1,4 +1,5 @@
 \name{ucc}
+\alias{ucc}
 \alias{ucc.x}
 \alias{ucc.y}
 

@@ -1,6 +1,5 @@
 \name{ucc-package}
 \alias{ucc-package}
-\alias{ucc}
 \docType{package}
 \title{
 Computation of a Universal Correlation Coefficient

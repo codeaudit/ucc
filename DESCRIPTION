@@ -1,7 +1,7 @@
 Package: ucc
 Type: Package
 Title: Computation of a Universal Correlation Coefficient
-Version: 0.0.2
+Version: 0.0.3
 Date: 2013-06-26
 Author: Jack Maney <jackmaney@gmail.com>
 Maintainer: Jack Maney <jackmaney@gmail.com>
