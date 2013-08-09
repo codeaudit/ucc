@@ -29,7 +29,7 @@ The Universal Correlation Coefficient briefly described above measures the *degr
 
     ucc(dat)$ucc    # equals 0.9057609
 
-Check out the R documentation for more details about the algorithm.
+Check out the R documentation for more details about the algorithm, or [a description on my homepage](http://jackmaney.com/code/universal_correlation_coefficient.html) for a more informal (albeit long-winded) version.
 
 ##Install
 
